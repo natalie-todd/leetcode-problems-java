@@ -1,9 +1,5 @@
 package AddTwoNumbers;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Solution {
     public static ListNode l11 = new ListNode(2);
     public static ListNode l12 = new ListNode(4);
@@ -49,6 +45,7 @@ public class Solution {
                 prev = tempNode;
             }
 
+            prev = tempNode;
             tempNode = null;
             l1 = l1.next;
             l2 = l2.next;
