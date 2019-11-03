@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35b5c70-8001-45fe-a9b2-e1229fe1086d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,27 +50,27 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="3233" />
+          <entry key="java" value="3665" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3233" />
+          <entry key="JAVA" value="3665" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -78,7 +78,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
@@ -90,13 +90,40 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ThreeSumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="-315">
               <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThreeSumSolution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -446,6 +473,8 @@
         <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreeSumSolution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" />
       </list>
     </option>
   </component>
@@ -515,7 +544,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572794809604" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572796328501" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -532,20 +561,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbers.Solution" />
-      <module name="leetcode_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AddTwoNumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero">
     <configuration name="AddTwoNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -584,20 +600,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThreeSumTest" />
+      <option name="METHOD_NAME" value="threeSum_returnsListOfLists_withSumsEqualingZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
       <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
       <item itemvalue="JUnit.AddTwoNumbersTest" />
       <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" />
       <item itemvalue="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
+      <item itemvalue="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero" />
         <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
         <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" />
         <item itemvalue="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
         <item itemvalue="JUnit.AddTwoNumbersTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -615,15 +641,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 22h 12m 07s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 22h 15m 41s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_respectsCarryValue - 2019.11.02 at 22h 16m 47s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 22h 17m 21s.xml">
       <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
     </history-entry>
@@ -644,6 +661,15 @@
     </history-entry>
     <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 22h 33m 36s.xml">
       <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeSumTest_threeSum_returnsListOfLists_withSumsEqualingZero - 2019.11.03 at 08h 47m 20s.xml">
+      <configuration name="ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeSumTest_threeSum_returnsListOfLists_withSumsEqualingZero - 2019.11.03 at 08h 50m 58s.xml">
+      <configuration name="ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeSumTest_threeSum_returnsListOfLists_withSumsEqualingZero - 2019.11.03 at 08h 51m 16s.xml">
+      <configuration name="ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZero" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -760,9 +786,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThreeSumSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="-315">
           <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -770,12 +817,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThreeSumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="36" column="42" lean-forward="true" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="243">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
           </folding>
         </state>
       </provider>
