@@ -1,28 +1,28 @@
 package AddTwoNumbers;
 
 public class Solution {
-    public static ListNode l11 = new ListNode(2);
-    public static ListNode l12 = new ListNode(4);
-    public static ListNode l13 = new ListNode(3);
-    public static ListNode l21 = new ListNode(5);
-    public static ListNode l22 = new ListNode(6);
-    public static ListNode l23 = new ListNode(4);
+//    public static ListNode l11 = new ListNode(2);
+//    public static ListNode l12 = new ListNode(4);
+//    public static ListNode l13 = new ListNode(3);
+//    public static ListNode l21 = new ListNode(5);
+//    public static ListNode l22 = new ListNode(6);
+//    public static ListNode l23 = new ListNode(4);
+//
+//    public static ListNode createTheNode1() {
+//        l11.next = l12;
+//        l12.next = l13;
+//
+//        return l11;
+//    }
+//
+//    public static ListNode createTheNode2() {
+//        l21.next = l22;
+//        l22.next = l23;
+//
+//        return l21;
+//    }
 
-    public static ListNode createTheNode1() {
-        l11.next = l12;
-        l12.next = l13;
-
-        return l11;
-    }
-
-    public static ListNode createTheNode2() {
-        l21.next = l22;
-        l22.next = l23;
-
-        return l21;
-    }
-
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         int carry = 0;
         Integer total = null;
@@ -55,7 +55,7 @@ public class Solution {
 
     }
 
-    public static void main(String args[]) {
-        System.out.println(addTwoNumbers(createTheNode1(), createTheNode2()));
-    }
+//    public static void main(String args[]) {
+//        System.out.println(addTwoNumbers(createTheNode1(), createTheNode2()));
+//    }
 }
