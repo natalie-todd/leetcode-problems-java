@@ -4,6 +4,7 @@
     <list default="true" id="f35b5c70-8001-45fe-a9b2-e1229fe1086d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/AddTwoNumbers/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/AddTwoNumbers/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/AddTwoNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AddTwoNumbersTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" afterDir="false" />
     </list>
@@ -42,45 +43,50 @@
     <session id="525939832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gradle" value="1" />
-          <entry key="java" value="2291" />
+          <entry key="java" value="2829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2291" />
+          <entry key="JAVA" value="2829" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="376">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -94,24 +100,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="331" selection-start-line="331" selection-end-line="331" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+            <state relative-caret-position="321">
+              <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -459,14 +454,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="width" value="1440" />
     <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -475,7 +470,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -526,11 +520,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572745928367" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572751371550" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -547,7 +542,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode">
+  <component name="RunManager" selected="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AddTwoNumbers.Solution" />
       <module name="leetcode_main" />
@@ -569,6 +564,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
+      <option name="METHOD_NAME" value="addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -579,13 +584,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
+      <option name="METHOD_NAME" value="addTwoNumbers_respectsCarryValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Solution" />
       <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
       <item itemvalue="JUnit.AddTwoNumbersTest" />
+      <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" />
+      <item itemvalue="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
+        <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" />
         <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
         <item itemvalue="JUnit.AddTwoNumbersTest" />
         <item itemvalue="Application.Solution" />
@@ -606,53 +625,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 28m 45s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 37m 17s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 40m 48s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 43m 36s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 44m 39s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 47m 41s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest - 2019.11.02 at 19h 49m 39s.xml">
-      <configuration name="AddTwoNumbersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 19h 49m 47s.xml">
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 04m 36s.xml">
       <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 19h 50m 11s.xml">
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_respectsCarryValue - 2019.11.02 at 21h 04m 47s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 04m 51s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 06m 16s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 06m 26s.xml">
       <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 19h 50m 33s.xml">
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 06m 54s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 07m 18s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 07m 38s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 08m 51s.xml">
+      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 09m 21s.xml">
       <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16523606" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32960895" />
-      <window_info anchor="bottom" id="Messages" weight="0.32960895" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
@@ -660,15 +674,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" weight="0.32890856" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.32890856" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -679,21 +698,27 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
           <line>38</line>
           <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -706,10 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="6371">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
         </state>
       </provider>
     </entry>
@@ -724,17 +749,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="230">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        <state relative-caret-position="221">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -745,14 +770,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        <state relative-caret-position="321">
+          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
           </folding>
         </state>
       </provider>
