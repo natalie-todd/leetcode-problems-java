@@ -43,6 +43,8 @@ public class AddTwoNumbersTest {
 
         ListNode actual = solution.addTwoNumbers(l11, l21);
 
-        assertThat(actual, equalTo(a1));
+        assertThat(actual.val, equalTo(a1.val));
+        assertThat(actual.next.val, equalTo(a1.next.val));
+        assertThat(actual.next.next.val, equalTo(a1.next.next.val));
     }
 }
