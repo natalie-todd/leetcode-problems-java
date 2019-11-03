@@ -8,6 +8,7 @@ public class Solution {
         int carry = 0;
         Integer total = null;
         ListNode prev = null;
+        ListNode current = null;
         int tempVal;
         ListNode head = new ListNode(0);
         ListNode response = null;
