@@ -1,48 +1,39 @@
-import jdk.nashorn.internal.runtime.arrays.ArrayIndex;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class ThreeSumSolution {
-    public List<List<Integer>> threeSum(int[] nums) {
-
+    public static int[] ex = new int[]{1, 2, 3, -3, -1, -2};
+    public static int[] ex2 = new int[]{-1, 0, 1, 2, -1, 4};
+    public static int[] ex3 = new int[]{-3, 2, 1, 2, -1, -1};
+    public static List<List<Integer>> threeSum(int[] nums) {
         List<Integer> intList = new ArrayList<Integer>(nums.length);
-        for (int i : nums)
-        {
+        for (int i : nums) {
             intList.add(i);
         }
-
+        List<Integer> sortedList = intList.stream().sorted().collect(Collectors.toList());
         List<List<Integer>> result = new ArrayList<>();
-
-        List<List<List<Integer>>> collect = intList.parallelStream()
-                .map(i -> {
-                    return intList.parallelStream()
-                            .map(j -> {
-                                return intList.parallelStream()
-                                        .filter(h -> i + j + h == 0).collect(Collectors.toList());
-                            }).collect(Collectors.toList());
-                }).collect(Collectors.toList());
-
-//        if(nums.length >= 3) {
-//            for (int i = 0; i < nums.length; i++) {
-//                for (int j = i + 1; j < nums.length; j++) {
-//                    for (int h = j + 1; h < nums.length; h++) {
-//
-//                        if (nums[i] + nums[j] + nums[h] == 0) {
-//                            result.add(Arrays.asList(nums[i], nums[j], nums[h]));
-//                        }
-//                    }
-//                }
-//            }
-//        }
-
-
-        List<List<Integer>> dedupedResult = result.stream()
-                .map(eachList -> eachList.stream().sorted().collect(Collectors.toList()))
-                .distinct().collect(Collectors.toList());
-        return dedupedResult;
+        for (int i = 0; i < sortedList.size() - 0; i++) {
+            Integer l = 1;
+            Integer r = sortedList.size() - 1;
+            Integer x = i;
+            while (l < r && x != r && x != l) {
+                if (sortedList.get(x) + sortedList.get(l) + sortedList.get(r) == 0) {
+                    List<Integer> oneAnswer = new ArrayList<>();
+                    oneAnswer.add(sortedList.get(x));
+                    oneAnswer.add(sortedList.get(l));
+                    oneAnswer.add(sortedList.get(r));
+                    result.add(oneAnswer.stream().sorted().collect(Collectors.toList()));
+                    l = l + 1;
+                    x = x + 1;
+                    r = r - 1;
+                } else if (sortedList.get(x) + sortedList.get(l) + sortedList.get(r) < 0) {
+                    l = l+ 1;
+                } else if (sortedList.get(x) + sortedList.get(l) + sortedList.get(r) > 0) {
+                    r = r - 1;
+                }
+            }
+        }
+        return result.stream().distinct().collect(Collectors.toList());
     }
 }
