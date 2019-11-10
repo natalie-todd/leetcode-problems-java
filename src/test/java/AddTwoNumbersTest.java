@@ -1,5 +1,5 @@
-import AddTwoNumbers.ListNode;
-import AddTwoNumbers.Solution;
+import addTwoNumbers.ListNode;
+import addTwoNumbers.Solution;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

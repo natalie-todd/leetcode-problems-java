@@ -1,9 +1,12 @@
+package threeSum;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class ThreeSumSolution {
-
+    String fileName = "src/main/java/threeSum/input.txt.txt";
 
     public static int[] ex3 = new int[]{-3, 2, 1, 2, -1, -1};
 
@@ -27,7 +30,6 @@ public class ThreeSumSolution {
                     oneAnswer.add(sortedList.get(r));
                     result.add(oneAnswer.stream().sorted().collect(Collectors.toList()));
                     l = l + 1;
-                    x = x + 1;
                     r = r - 1;
                 } else if (sortedList.get(x) + sortedList.get(l) + sortedList.get(r) < 0) {
                     l = l + 1;
@@ -38,4 +40,26 @@ public class ThreeSumSolution {
         }
         return result.stream().distinct().collect(Collectors.toList());
     }
+
+    public int[] bigNum(String fileName) throws IOException {
+        File file = new File(fileName);
+        FileReader fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+        List<Integer> list = new ArrayList<>();
+
+        while ((line = br.readLine()) != null) {
+            list.add(Integer.parseInt(line));
+        }
+        br.close();
+        fr.close();
+
+        int[] nums = new int[list.size()];
+
+        for(int i = 0; i < list.size() -1; i++) {
+            nums[i] = list.get(i);
+        }
+        return nums;
+    }
+
 }
