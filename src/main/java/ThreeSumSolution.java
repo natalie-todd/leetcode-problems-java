@@ -3,10 +3,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ThreeSumSolution {
-    public static int[] ex = new int[]{1, 2, 3, -3, -1, -2};
-    public static int[] ex2 = new int[]{-1, 0, 1, 2, -1, 4};
+
+
     public static int[] ex3 = new int[]{-3, 2, 1, 2, -1, -1};
+
     public static List<List<Integer>> threeSum(int[] nums) {
+
         List<Integer> intList = new ArrayList<Integer>(nums.length);
         for (int i : nums) {
             intList.add(i);
@@ -28,7 +30,7 @@ public class ThreeSumSolution {
                     x = x + 1;
                     r = r - 1;
                 } else if (sortedList.get(x) + sortedList.get(l) + sortedList.get(r) < 0) {
-                    l = l+ 1;
+                    l = l + 1;
                 } else if (sortedList.get(x) + sortedList.get(l) + sortedList.get(r) > 0) {
                     r = r - 1;
                 }
