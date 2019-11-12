@@ -97,10 +97,14 @@ public class NumberOfIslands {
                             grid[row - 1][col] = '0';
                         }
                         if (row + 1 <= nr && grid[row + 1][col] == '1') {
-                            neighbors.enqueue(row * nc + (col -1));
+                            neighbors.enqueue((row+1) * nc + col);
+                            grid[row+1][col] = '0';
+                        }
+                        if (col -1 >= 0 && grid[row][col-1] == '1') {
+                            neighbors.enqueue((row) * nc + col-1);
                             grid[row][col-1] = '0';
                         }
-                        if (col + 1 <= nr && grid[row][col +1] == '1') {
+                        if (col + 1 <= nc && grid[row][col +1] == '1') {
                             neighbors.enqueue(row * nc + (col +1));
                             grid[row][col+1] = '0';
                         }
@@ -112,6 +116,6 @@ public class NumberOfIslands {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(bfs(theSecondIsland));
+        System.out.println(bfs(theIsland));
     }
 }
