@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35b5c70-8001-45fe-a9b2-e1229fe1086d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NumberOfIslandsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -75,13 +73,13 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="8943" />
+          <entry key="java" value="9509" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="8943" />
+          <entry key="JAVA" value="9509" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -92,10 +90,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="148">
+              <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
               <folding>
-                <element signature="e#1740#1741#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2244#2245#0" expanded="true" />
+                <element signature="e#2305#2306#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -527,7 +527,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573527405605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573528823285" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -665,6 +665,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.105150215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -759,31 +760,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
-          <line>22</line>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
-          <line>48</line>
+          <line>52</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
-          <line>56</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
-          <line>36</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
-          <line>40</line>
+          <line>44</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
@@ -923,10 +924,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="148">
+          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
           <folding>
-            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
           </folding>
         </state>
       </provider>
