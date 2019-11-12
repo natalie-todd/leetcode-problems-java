@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f35b5c70-8001-45fe-a9b2-e1229fe1086d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/AddTwoNumbers/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/AddTwoNumbers/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/AddTwoNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/AddTwoNumbersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/NumberOfIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/NumberOfIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -16,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/leetcode$NumberOfIslands.ic" NAME="NumberOfIslands Coverage Results" MODIFIED="1573526020201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -43,38 +44,44 @@
     <session id="525939832">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="gradle" value="1" />
-          <entry key="java" value="9" />
+          <entry key="class" value="3" />
+          <entry key="gradle" value="3" />
+          <entry key="input" value="1" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="9" />
+          <entry key="CLASS" value="3" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="16" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="gradle" value="1" />
-          <entry key="java" value="2829" />
+          <entry key="gradle" value="3" />
+          <entry key="java" value="9577" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2829" />
+          <entry key="Groovy" value="3" />
+          <entry key="JAVA" value="9577" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -82,29 +89,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+            <state relative-caret-position="242">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,23 +102,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NumberOfIslandsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            <state relative-caret-position="253">
+              <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="10" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="1150">
+              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,6 +131,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -324,7 +316,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6290448168000" />
+        <entry key="$PROJECT_DIR$" value="6290798819000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="4032432955" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -452,17 +444,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/ThreeSumSolution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/threeSum/input" />
+        <option value="$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NumberOfIslandsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="808" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -499,14 +497,6 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode-problems-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="AddTwoNumbers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode-problems-java" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -515,20 +505,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572751371550" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573566068042" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -542,72 +552,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbers.Solution" />
+  <component name="RunManager" selected="Application.NumberOfIslands">
+    <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NumberOfIslands" />
       <module name="leetcode_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AddTwoNumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTwoNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
-      <option name="METHOD_NAME" value="addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
+      <option name="MAIN_CLASS_NAME" value="NumberOfIslandsTest" />
+      <option name="METHOD_NAME" value="numberOfIslands_returnsCorrectNumberOfIslands" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
-      <option name="METHOD_NAME" value="addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
+      <option name="MAIN_CLASS_NAME" value="NumberOfIslandsTest" />
+      <option name="METHOD_NAME" value="numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreeSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode_test" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AddTwoNumbersTest" />
-      <option name="METHOD_NAME" value="addTwoNumbers_respectsCarryValue" />
+      <option name="MAIN_CLASS_NAME" value="ThreeSumTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZeroInput2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThreeSumTest" />
+      <option name="METHOD_NAME" value="threeSum_returnsListOfLists_withSumsEqualingZeroInput2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
-      <item itemvalue="JUnit.AddTwoNumbersTest" />
-      <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" />
-      <item itemvalue="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
+      <item itemvalue="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZeroInput2" />
+      <item itemvalue="JUnit.ThreeSumTest" />
+      <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" />
+      <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" />
+      <item itemvalue="Application.NumberOfIslands" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" />
-        <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" />
-        <item itemvalue="JUnit.AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" />
-        <item itemvalue="JUnit.AddTwoNumbersTest" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.NumberOfIslands" />
+        <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" />
+        <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" />
+        <item itemvalue="JUnit.ThreeSumTest" />
+        <item itemvalue="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZeroInput2" />
       </list>
     </recent_temporary>
   </component>
@@ -625,42 +629,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 04m 36s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 19h 41m 50s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_respectsCarryValue - 2019.11.02 at 21h 04m 47s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_respectsCarryValue" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 19h 42m 52s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 04m 51s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent - 2019.11.10 at 19h 44m 20s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 06m 16s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoLargerNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent - 2019.11.10 at 19h 45m 53s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 06m 26s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent - 2019.11.10 at 19h 50m 19s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 06m 54s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent - 2019.11.10 at 19h 50m 22s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 07m 18s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 19h 52m 24s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 07m 38s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 19h 53m 53s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 08m 51s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent - 2019.11.10 at 19h 53m 59s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddTwoNumbersTest_addTwoNumbers_addsTwoListNodes_intoAThirdListNode - 2019.11.02 at 21h 09m 21s.xml">
-      <configuration name="AddTwoNumbersTest.addTwoNumbers_addsTwoListNodes_intoAThirdListNode" configurationId="JUnit" />
+    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 20h 25m 30s.xml">
+      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10658083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -668,9 +671,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33053222" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -678,7 +681,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32960895" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32960895" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -688,6 +691,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -697,62 +701,139 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java</url>
+          <line>26</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java</url>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java</url>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java</url>
+          <line>35</line>
           <properties />
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>95</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6371">
           <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -770,17 +851,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AddTwoNumbers/Solution.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="345">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/CoreMatchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3779">
+          <caret line="353" column="44" selection-start-line="353" selection-start-column="44" selection-end-line="353" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="97" column="38" lean-forward="true" selection-start-line="97" selection-start-column="38" selection-end-line="97" selection-end-column="38" />
+        <state relative-caret-position="-966">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/threeSum/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68977">
+          <caret line="2999" column="5" selection-start-line="2999" selection-start-column="5" selection-end-line="2999" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/arrays/ArrayIndex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addTwoNumbers/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/MatcherAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Queue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThreeSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NumberOfIslandsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
