@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f35b5c70-8001-45fe-a9b2-e1229fe1086d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MedianOfSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MedianOfSortedArraysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/NumberOfIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/NumberOfIslands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -59,14 +59,14 @@
           <entry key="class" value="3" />
           <entry key="gradle" value="3" />
           <entry key="input" value="1" />
-          <entry key="java" value="17" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="18" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -75,13 +75,13 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gradle" value="3" />
-          <entry key="java" value="9577" />
+          <entry key="java" value="9796" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="9577" />
+          <entry key="JAVA" value="9796" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -89,11 +89,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MedianOfSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#104#105#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NumberOfIslands.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MedianOfSortedArraysTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="341">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,25 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NumberOfIslandsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/threeSum/ThreeSumSolution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-79">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -454,6 +452,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ThreeSumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NumberOfIslandsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/NumberOfIslands.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MedianOfSortedArraysTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MedianOfSortedArrays.java" />
       </list>
     </option>
   </component>
@@ -468,6 +468,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -519,12 +521,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573566068042" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574217278702" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -552,10 +552,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfIslands">
+  <component name="RunManager" selected="JUnit.MedianOfSortedArraysTest.findMedianSortedArrays_returnsMedian">
     <configuration name="NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberOfIslands" />
       <module name="leetcode_main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedianOfSortedArraysTest.findMedianSortedArrays_returnsMedian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MedianOfSortedArraysTest" />
+      <option name="METHOD_NAME" value="findMedianSortedArrays_returnsMedian" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -588,30 +598,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZeroInput2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ThreeSumTest" />
-      <option name="METHOD_NAME" value="threeSum_returnsListOfLists_withSumsEqualingZeroInput2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZeroInput2" />
       <item itemvalue="JUnit.ThreeSumTest" />
       <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" />
       <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" />
       <item itemvalue="Application.NumberOfIslands" />
+      <item itemvalue="JUnit.MedianOfSortedArraysTest.findMedianSortedArrays_returnsMedian" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MedianOfSortedArraysTest.findMedianSortedArrays_returnsMedian" />
         <item itemvalue="Application.NumberOfIslands" />
         <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" />
         <item itemvalue="JUnit.NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands_whenMultipleArePresent" />
         <item itemvalue="JUnit.ThreeSumTest" />
-        <item itemvalue="JUnit.ThreeSumTest.threeSum_returnsListOfLists_withSumsEqualingZeroInput2" />
       </list>
     </recent_temporary>
   </component>
@@ -629,9 +629,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 19h 41m 50s.xml">
-      <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 19h 42m 52s.xml">
       <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
@@ -659,11 +656,15 @@
     <history-entry file="NumberOfIslandsTest_numberOfIslands_returnsCorrectNumberOfIslands - 2019.11.10 at 20h 25m 30s.xml">
       <configuration name="NumberOfIslandsTest.numberOfIslands_returnsCorrectNumberOfIslands" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MedianOfSortedArraysTest_findMedianSortedArrays_returnsMedian - 2019.11.19 at 19h 34m 41s.xml">
+      <configuration name="MedianOfSortedArraysTest.findMedianSortedArrays_returnsMedian" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10658083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22174536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -672,8 +673,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33053222" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39915967" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33053222" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915967" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -861,27 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/CoreMatchers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3779">
           <caret line="353" column="44" selection-start-line="353" selection-start-column="44" selection-end-line="353" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-966">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -952,6 +936,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddTwoNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/addTwoNumbers/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MedianOfSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MedianOfSortedArraysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
