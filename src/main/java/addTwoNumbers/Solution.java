@@ -1,18 +1,32 @@
 package addTwoNumbers;
 
 public class Solution {
+    public ListNode lastNext(ListNode response) {
+        if (response.next == null) {
+            return response;
+        } else {
+            return lastNext(response.next);
+        }
+    }
+
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
         Integer total = null;
         ListNode prev = null;
-        ListNode current = null;
         int tempVal;
-        ListNode head = new ListNode(0);
         ListNode response = null;
 
         while (carry != 0 || l1 != null || l2 != null) {
-            if(l1 != null || l2 != null) {
+
+            if (l1 != null && l2 != null) {
                 tempVal = carry + l1.val + l2.val;
+
+            } else if (l1 == null && l2 != null) {
+                    tempVal = carry + l2.val;
+
+            } else if (l1 != null && l2 == null) {
+                tempVal = carry + l1.val;
+
             } else {
                 tempVal = carry;
             }
@@ -22,21 +36,19 @@ public class Solution {
             ListNode tempNode = new ListNode(total);
 
             if (response == null) {
-                head.val = tempNode.val;
-                response = head;
+                response = tempNode;
             } else {
-                prev.next = tempNode;
-                response.next = prev;
+                lastNext(response).next = tempNode;
             }
 
             prev = tempNode;
             tempNode = null;
-            if(l1 != null || l2 != null) {
-                l1 = l1.next;
-                l2 = l2.next;
+
+            if (l1 != null || l2 != null) {
+                l1 = (l1 != null ? l1.next : null);
+                l2 = (l2 != null ? l2.next : null);
             }
         }
         return response;
-
     }
 }

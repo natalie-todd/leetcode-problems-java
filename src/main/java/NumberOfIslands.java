@@ -116,6 +116,6 @@ public class NumberOfIslands {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(bfs(theIsland));
+        System.out.println(bfs(theSecondIsland));
     }
 }

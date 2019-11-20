@@ -23,9 +23,11 @@ public class AddTwoNumbersTest {
         ListNode l11 = new ListNode(2);
         ListNode l12 = new ListNode(4);
         ListNode l13 = new ListNode(3);
+
         ListNode l21 = new ListNode(5);
         ListNode l22 = new ListNode(6);
         ListNode l23 = new ListNode(4);
+
         ListNode a1 = new ListNode(7);
         ListNode a2= new ListNode(0);
         ListNode a3 = new ListNode(8);
@@ -55,11 +57,13 @@ public class AddTwoNumbersTest {
         ListNode l13 = new ListNode(3);
         ListNode l14 = new ListNode(2);
         ListNode l15 = new ListNode(4);
+
         ListNode l21 = new ListNode(5);
         ListNode l22 = new ListNode(6);
         ListNode l23 = new ListNode(4);
         ListNode l24 = new ListNode(5);
         ListNode l25 = new ListNode(6);
+
         ListNode a1 = new ListNode(7);
         ListNode a2= new ListNode(0);
         ListNode a3 = new ListNode(8);
@@ -106,5 +110,22 @@ public class AddTwoNumbersTest {
 
         assertThat(actual.val, equalTo(a1.val));
         assertThat(actual.next.val, equalTo(a1.next.val));
+    }
+
+    @Test
+    public void addTwoNumbers_doesNotThrowNullPointerException() {
+        ListNode l11 = new ListNode(1);
+        ListNode l12 = new ListNode(8);
+
+        ListNode l13 = new ListNode(0);
+
+        l11.next = l12;
+
+        solution = new Solution();
+
+        ListNode actual = solution.addTwoNumbers(l11, l13);
+
+        assertThat(actual.val, equalTo(l11.val));
+        assertThat(actual.next.val, equalTo(l11.next.val));
     }
 }
