@@ -28,4 +28,16 @@ public class MedianOfSortedArraysTest {
 
         assertThat(actual, equalTo(2.0));
     }
+
+    @Test
+    public void findMedianSortedArrays_withTwoEvenNumberedArrays_returnsMedian() {
+        int[] array1 = new int[]{1, 2};
+        int[] array2 = new int[]{3, 4};
+
+        medianOfSortedArrays = new MedianOfSortedArrays();
+
+        double actual = medianOfSortedArrays.findMedianSortedArrays(array1, array2);
+
+        assertThat(actual, equalTo(2.5));
+    }
 }
